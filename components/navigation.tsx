@@ -3,6 +3,7 @@
 import React from "react"
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
 
@@ -39,8 +40,15 @@ export function Navigation() {
             {/* Logo Section */}
             <div className="flex items-center gap-3 flex-shrink-0">
               <Link href="/" className="flex items-center gap-3 group">
-                <div className="w-10 h-10 bg-gradient-to-br from-primary via-primary to-accent rounded-xl flex items-center justify-center shadow-lg group-hover:shadow-2xl group-hover:shadow-primary/40 transition-all duration-300">
-                  <span className="text-white font-bold text-lg">L</span>
+                <div className="relative w-10 h-10 flex items-center justify-center">
+                  <Image
+                    src="/logo.svg"
+                    alt="Launch Digital Works"
+                    width={40}
+                    height={40}
+                    className="w-10 h-10 object-contain group-hover:opacity-90 transition-opacity duration-300"
+                    priority
+                  />
                 </div>
                 <span className="hidden sm:inline text-xl font-bold text-white group-hover:text-accent transition-colors duration-300">
                   Launch Digital Works
