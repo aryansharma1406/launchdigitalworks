@@ -282,20 +282,17 @@ export default function Portfolio() {
               {
                 quote:
                   "Launch Digital Works completely transformed our online presence. The team understood our vision and delivered beyond expectations. Our leads increased 5x in the first quarter.",
-                author: 'Sarah Chen',
-                title: 'CEO, TechStart Pro',
+                author: 'Anjali Sharma',
               },
               {
                 quote:
                   "From strategy to execution, Launch Digital Works was professional, creative, and results-focused. Best investment we made for our business.",
-                author: 'Michael Torres',
-                title: 'Founder, E-Shop Essentials',
+                author: 'Beena Rawat',
               },
               {
                 quote:
                   "The team treated our business like their own. Their dedication to results and transparent communication made all the difference in our growth.",
-                author: 'Emily Rodriguez',
-                title: 'Marketing Director, Local Services Co',
+                author: 'Sakshi Singh',
               },
             ].map((testimonial, idx) => (
               <div key={idx} className="bg-background border border-border rounded-xl p-8">

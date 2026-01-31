@@ -429,7 +429,7 @@ export default function Home() {
                 "Launch Digital Works completely transformed how we present our business online. Within 6 months, we saw a 240% increase in qualified leads. The team's strategic approach and attention to detail was exceptional."
               </p>
               <div className="border-t border-white/10 pt-6">
-                <p className="font-semibold text-foreground">Sarah Chen</p>
+                <p className="font-semibold text-foreground">Anjali Sharma</p>
                 <p className="text-sm text-muted-foreground">CEO, TechStart Solutions</p>
               </div>
             </div>
@@ -445,7 +445,7 @@ export default function Home() {
                 "Working with Launch Digital Works was a game-changer for our agency. They didn't just build us a website—they created a conversion machine. Our average project ROI improved by 180%."
               </p>
               <div className="border-t border-white/10 pt-6">
-                <p className="font-semibold text-foreground">Marcus Rodriguez</p>
+                <p className="font-semibold text-foreground">Sakshi Singh</p>
                 <p className="text-sm text-muted-foreground">Founder, Growth Marketing Agency</p>
               </div>
             </div>
@@ -461,7 +461,7 @@ export default function Home() {
                 "The professionalism and expertise of the Launch Digital Works team exceeded our expectations. They turned our outdated site into a modern, high-performing platform. Highly recommend!"
               </p>
               <div className="border-t border-white/10 pt-6">
-                <p className="font-semibold text-foreground">Emily Watson</p>
+                <p className="font-semibold text-foreground">Parth Verma</p>
                 <p className="text-sm text-muted-foreground">Managing Director, Premium Consulting</p>
               </div>
             </div>

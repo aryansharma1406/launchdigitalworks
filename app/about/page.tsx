@@ -9,22 +9,22 @@ import Antigravity from '@/components/antigravity';
 export default function About() {
   const team = [
     {
-      name: 'Jessica Morgan',
-      role: 'Founder & Creative Director',
+      name: 'Sanket Mistry',
+      role: 'Co-Founder & Creative Director',
       bio: 'Digital strategist with 12+ years of experience building brands. Passionate about creating meaningful experiences.',
     },
     {
-      name: 'David Chen',
+      name: 'Aryan kumar',
       role: 'CTO & Technical Lead',
       bio: 'Full-stack developer and tech architect. Specializes in scalable web solutions and performance optimization.',
     },
     {
-      name: 'Amanda Williams',
+      name: 'Hitesh Rawat',
       role: 'Marketing Strategist',
       bio: 'Data-driven marketer with proven track record. Focuses on campaigns that deliver measurable ROI.',
     },
     {
-      name: 'Marcus Johnson',
+      name: 'Amartya Vikram Singh',
       role: 'Design Lead',
       bio: 'UX/UI designer with eye for detail. Creates beautiful, functional designs that solve real problems.',
     },
@@ -118,7 +118,7 @@ export default function About() {
                   <div className="absolute bottom-0 left-0 w-96 h-96 bg-accent/10 rounded-full translate-y-32 -translate-x-32 blur-3xl" />
                 </div>
                 <div className="relative z-10 text-center">
-                  <div className="text-6xl font-bold text-primary mb-4">10+</div>
+                  <div className="text-6xl font-bold text-primary mb-4">3+</div>
                   <p className="text-lg text-foreground">Years of Experience</p>
                 </div>
               </div>
@@ -285,11 +285,11 @@ export default function About() {
 
           <div className="space-y-8">
             {[
-              { year: '2016', milestone: 'Founded', description: 'Launch Digital Works launched with a mission to democratize premium digital services.' },
-              { year: '2017', milestone: 'First 10 Projects', description: 'Completed 10 successful projects and earned 100% client satisfaction rating.' },
-              { year: '2018', milestone: 'Team Expansion', description: 'Grew to 8 team members and opened our second office.' },
-              { year: '2019', milestone: '30 Projects Milestone', description: 'Hit 30 successful projects and ₹10M in client revenue generated.' },
-              { year: '2020', milestone: 'Industry Recognition', description: 'Won "Best Digital Agency" award. Featured in industry publications.' },
+              { year: '2023', milestone: 'Founded', description: 'Launch Digital Works launched with a mission to democratize premium digital services.' },
+              { year: '2023', milestone: 'First 10 Projects', description: 'Completed 10 successful projects and earned 100% client satisfaction rating.' },
+              { year: '2023', milestone: 'Team Expansion', description: 'Grew to 8 team members and opened our second office.' },
+              { year: '2024', milestone: '30 Projects Milestone', description: 'Hit 30 successful projects and ₹10M in client revenue generated.' },
+              { year: '2025', milestone: 'Industry Recognition', description: 'Won "Best Digital Agency" award. Featured in industry publications.' },
               { year: '2026', milestone: '50+ Projects', description: 'Celebrating 50+ successful projects and continuing to grow with amazing clients.' },
             ].map((milestone, idx) => (
               <div key={idx} className="flex gap-8">
