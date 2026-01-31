@@ -42,7 +42,7 @@ export function Navigation() {
               <Link href="/" className="flex items-center gap-3 group">
                 <div className="relative w-10 h-10 flex items-center justify-center">
                   <Image
-                    src="/logo.svg"
+                    src="/icon.svg"
                     alt="Launch Digital Works"
                     width={40}
                     height={40}
